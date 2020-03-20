@@ -1,19 +1,4 @@
-.navbar.custm-nav {
-    background-color: transparent !important;
-}
-.navbar .navbar-nav .nav-item .nav-link  {
-    padding: 1rem;
-    font-weight: 500;
-}
-.brand-color,
-.navbar-light .navbar-text a,
-.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
-    color: rgb(250, 78, 55); 
-}
-
-.btn-secondary {
-    color: #6c757d;
-    background-color: #6c757d08;
-    border-color: #6c757d;
-    border-radius: 30px;
+body{
+    padding: 5px;
+    color: black;
 }
