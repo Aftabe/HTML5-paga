@@ -1,5 +1,4 @@
 function openCity(evt, cityName) {
-  evt.preventDefault();
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -14,7 +13,4 @@ function openCity(evt, cityName) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-function preventDefault(e){
-  e.preventDefault();
-  document.getElementById("defaultOpen").click();
-}
+document.getElementById("defaultOpen").click();
