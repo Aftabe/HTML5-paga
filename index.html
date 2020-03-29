@@ -32,12 +32,11 @@
 
     <!-- Create 'Tabs using css and javaScript' -->
 
-    <h2>Tabs</h2>
-    <p>Click on the buttons inside the tabbed menu:</p>
+    <h2>Tabs:</h2>
+    <p>Click on the buttons inside the tabbed menu and see the result</p>
 
     <div class="tab">
-        <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'Kabul')">Kabul</button>
-        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
         <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
         <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
     </div>
@@ -58,11 +57,6 @@
         <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
         <h3>Tokyo</h3>
         <p>Tokyo is the capital of Japan.</p>
-    </div>
-    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-    <div id="Kabul" class="tabcontent">
-        <h3>Kabul</h3>
-        <p>Kabul is the capital of Japan.</p>
     </div>
 
 
