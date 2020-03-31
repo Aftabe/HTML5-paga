@@ -99,3 +99,7 @@ body {
   opacity: 1;
   right: 0;
 }
+
+.btn-center{
+  text-align: center;
+}
