@@ -103,3 +103,17 @@ body {
 .btn-center{
   text-align: center;
 }
+
+.text{
+  background-color: #9e8383;
+  padding: 20px;
+  text-align: center;
+  margin: 15px;
+  /* display: inline-block; */
+  width: 300px;
+  border: 1px solid black;
+  resize: both;
+  overflow: auto;
+
+
+}
