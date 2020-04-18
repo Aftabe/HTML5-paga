@@ -10,6 +10,12 @@ body {
   background: rgba(147, 216, 45, 0.63);
   /* padding: 20px */
 }
+/* heading text style */
+.heading-primary {
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+}
 
 /* Style the tab */
 .tab {
@@ -126,12 +132,11 @@ body {
 /* row style */
 .row{
   display: flex;
-  padding: 10px;
   flex-wrap: wrap;
+  justify-content: center;
+  /* padding: 10px; */
 }
 /* column style */
 .col-md-6{
-  width: 50%;
-  text-align: center;
-  /* float: 50%; */
+  margin: 3px;
 }
