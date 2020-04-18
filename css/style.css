@@ -117,3 +117,19 @@ body {
 
 
 }
+/* container style */
+.contianer{
+  padding: 30px;
+  background-color: #ff98ee;
+}
+
+/* row style */
+.row{
+  display: flex;
+  padding: 10px;
+}
+/* column style */
+.col-md-6{
+  width: 100%;
+  /* float: 50%; */
+}
