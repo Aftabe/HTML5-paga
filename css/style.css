@@ -1,0 +1,17 @@
+/* normalizing css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: black;
+}
+
+.container{
+    min-height: 70vh;
+    /* background-color: #7CFC00; */
+    background-image: url(/AI10_PHL0110_COVID10_00005.png);
+}
