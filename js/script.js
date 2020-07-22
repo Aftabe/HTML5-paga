@@ -11,10 +11,9 @@ const mailForm = document.getElementById('mail-form'),
 
 
 // Event linstners
-eventListners();
-function eventListners() {
-  // App init
-  document.addEventListener('DOMContentLoaded', appInit)
+addEventListener();
+function addEventListener(){
+  document.addEventListener('DOMContentLoaded', appInIt);
 }
 
 
@@ -22,8 +21,6 @@ function eventListners() {
 
 
 // Functions
-
-function appInit() {
-  sendBtn.disabled = true;
+function appInIt(){
+  sendBtn.style.backgroundColor = 'grey';
 }
-
