@@ -5,18 +5,12 @@
     box-sizing: border-box;
 }
 
-body{
-    font-size: 16px;
-    color: black;
+html {
+  font-size: 10px;
 }
 
-.container{
-    min-height: 90vh;
-    background-color: #7CFC00;
-    background-image: url(/AI10_PHL0110_COVID10_00005.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: top;
+body{
+  background-color: #d3a81c;
 }
 
 /* navbar */
@@ -47,3 +41,70 @@ ul {
   .active {
     background-color: #4CAF50;
   }
+
+/* mail-container */
+.mail-container {
+    text-align: center !important;
+    margin: 7px auto;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    min-height: 44vh;
+    width: 60%;
+    background-color: white;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 1.7rem 2rem;
+    background-color: green;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 1rem;
+
+}
+
+/* mail-form */
+
+#mail-form {
+    text-align: left;
+    padding: 1rem;
+    width: 100%;
+
+    /* margin: 1rem auto; */
+}
+
+/* Label */
+label {
+    font-size: 1.6rem;
+    /* margin-bottom: 2rem; */
+}
+
+/* Input */
+input {
+    border: none;
+    outline: none;
+    border-bottom: .1rem solid #afacac;
+    margin-bottom: 1.8rem;
+    margin-top: .5rem;
+    width: 100%;
+    padding: .7rem;
+}
+
+/* anchor */
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: green;
+    color: white;
+}
+
+/* send */
+#send {
+    float: left;
+}
+
+#reset {
+    float: right;
+}
