@@ -14,6 +14,8 @@ const mailForm = document.getElementById('mail-form'),
 addEventListener();
 function addEventListener(){
   document.addEventListener('DOMContentLoaded', appInIt);
+
+  sendBtn.addEventListener('click', show);
 }
 
 
@@ -23,4 +25,10 @@ function addEventListener(){
 // Functions
 function appInIt(){
   sendBtn.style.backgroundColor = 'grey';
+};
+
+
+function show(){
+  sendBtn.style.color = 'black';
+  sendBtn.style.backgroundColor = 'green';
 }
