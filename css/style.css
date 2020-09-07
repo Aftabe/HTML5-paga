@@ -108,3 +108,8 @@ a {
 #reset {
     float: right;
 }
+
+
+.send-icon{
+  margin-left: 6px;
+}
