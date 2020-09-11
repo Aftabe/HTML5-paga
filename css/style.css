@@ -1,14 +1,60 @@
 /* normalizing css */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 10px;
 }
 
-body{
+body {
   background-color: #d3a81c;
+}
+
+.container {
+  padding: 5rem;
+  background-color: grey;
+  margin: 5rem;
+}
+
+/* Row */
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+select {
+  width: 30rem;
+  padding: 1rem;
+  outline: none;
+}
+
+.main-title {
+  /* margin: 1rem auto; */
+  margin-left: 57rem;
+  /* margin-top: 1rem; */
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+input {
+  width: 30rem;
+  padding: 1rem 2rem;
+  outline: none;
+  margin: .7rem auto;
+}
+
+#last-t {
+  margin-top: 1.6rem !important;
+}
+
+.btn {
+  background-color: indianred;
+  outline: none;
+  border: none;
 }
