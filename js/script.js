@@ -29,6 +29,6 @@ function appInIt(){
 
 
 function show(){
-  sendBtn.style.color = 'black';
+  sendBtn.style.color = 'blue';
   sendBtn.style.backgroundColor = 'green';
 }
