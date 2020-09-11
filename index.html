@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/all.js"></script>
-    <title>Document</title>
+    <title>Name generating</title>
 </head>
+
 <body>
-        <!-- form -->
-        
+    <!-- form -->
+    <div class="container">
+        <h1 class="main-title">Name generating</h1>
+        <div class="row">
+            <div class="col">
+                <form action="#" id="generate-names">
+                    <label for="country" class="title">Filter by country name</label><br>
+                    <select name="f-width" id="country">
+                        <option value="">---choose---</option>
+                        <option value="australia">Australia</option>
+                        <option value="iraq">Iraq</option>
+                        <option value="afghanistan">Afghanistan</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="italy">Italy</option>
+                        <option value="france">France</option>
+                        <option value="india">India</option>
+                      </select><br><br>
+                      <label for="gender" class="title">Gender</label><br>
+                      <select name="f-width" id="gender">
+                        <option value="">---choose---</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                      </select><br><br>
+                      <label for="text" id="last-t" class="title">Numbers of name to generate</label><br>
+                      <input type="number" id="quantity" class="f-width" min="5" max="15" value="5"><br>
+                      <input type="submit" class="btn f-width" value="Generate">
+                </form>
+            </div>
+            <div class="col">
+                <div class="output"></div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -29,4 +62,5 @@
     <!-- script section -->
     <script src="js/script.js"></script>
 </body>
+
 </html>
