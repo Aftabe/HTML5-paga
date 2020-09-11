@@ -1,34 +1,38 @@
 // Variables
-const mailForm = document.getElementById('mail-form'),
-      sendBtn = document.getElementById('send'),
-      resetBtn = document.getElementById('reset');
-      
+const form = document.getElementById("generate-names");
 
 
 
 
 
-
-
-// Event linstners
+// Event listners
 addEventListener();
-function addEventListener(){
-  document.addEventListener('DOMContentLoaded', appInIt);
 
-  sendBtn.addEventListener('click', show);
+function addEventListener() {
+  // Execute the function to query API
+  form.addEventListener('submit', loadNames);
 }
 
 
+// function
+function loadNames(e) {
+  e.preventDefault();
+  //Read the values from the form and create variables
+  const origin = document.getElementById('country').value,
+    gender = document.getAnimations('gender').value,
+    amount = document.getElementById('quantity').value;
 
 
 
-// Functions
-function appInIt(){
-  sendBtn.style.backgroundColor = 'grey';
-};
 
+  // Build the URL
+  let url = 'https://uinames.com/api/';
+  // Read the url and append to the url
+  if (origin !== '') {
+    url += `
+  region=${origin}&
+  `;
+  }
+  console.log(url);
 
-function show(){
-  sendBtn.style.color = 'blue';
-  sendBtn.style.backgroundColor = 'green';
 }
