@@ -22,9 +22,6 @@ function loadNames(e) {
     gender = document.getAnimations('gender').value,
     amount = document.getElementById('quantity').value;
 
-
-
-
   // Build the URL
   let url = 'https://uinames.com/api/';
   // Read the url and append to the url
